@@ -19,8 +19,6 @@ The dataset used in this project is a custom dataset that contains 40 images for
 
 ### Methodology
 
----
-
 Image pre-processing: 
       
         - Read Image 
