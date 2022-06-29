@@ -19,4 +19,32 @@ Image pre-processing:
         - Resize all images to a uniform size 
         - Apply gaussian filter over image
         - Delcare CLAHE parameters and apply over image
+        
+Segmentation: 
+
+      - Apply segmentation technique which is unique to every digit to optimize best ROI detection 
+      - Store segmented image and Mask image 
+      
+Feature Extraction: 
+
+      - Define features to be generated for the Region props technique 
+      - Feed segmented image and Mask image to the region props function along with the features to be generated 
+
+Post-processing: 
+
+      - Scale data produced by Region props technique 
+      - Transform data using Min Max scaler 
+      
+Model implementation: 
+
+      - Implement Artificial Neural Network class with Backpropigation functionality
+      - Define number of Hidden layers and iteration number 
+      - Call ANN model and pass X, Y dataset from the post-processing stage
+      - Train model 
+      
+Evaluation metrics: 
+
+      - Accuracy percentage 
+      - Mean absolute error 
+      - Confusion Matrix 
 
