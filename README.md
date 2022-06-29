@@ -13,7 +13,7 @@ Train a Backpropagation based Artificial Neural Network model from scratch to id
 ---
 
 ### Dataset
-The dataset used in this project is a custom dataset that contains 40 images for digits from 0 to 9 
+The dataset used in this project is a custom dataset that contains 40 images for digits from 0 to 9.
 
 ---
 
